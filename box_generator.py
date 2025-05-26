@@ -7,6 +7,33 @@ Original file is located at
     https://colab.research.google.com/drive/1R60a-Tcd1FFUpon-zTJ4XUkmkOwqFZQ8
 """
 
+"""
+Box Database Generator
+----------------------
+
+This script generates randomized box specification datasets and exports them as Excel files.
+
+📄 Output:
+- Excel file named `boxes_database_<N>.xlsx` where <N> is the number of generated box records.
+
+🔧 How to Use:
+1. Install pandas if not already installed:
+   pip install pandas
+
+2. Open this file.
+3. Modify the last line if you want to change the number of records:
+   boxes_data = generate_boxes(10000)
+
+   Change `10000` to your desired number (e.g., 500, 1000, 50000, etc.)
+
+4. Run the script:
+   python generate_boxes.py
+
+✅ The Excel file will be saved in your working directory.
+
+💡 Tip:
+You can generate multiple datasets by calling `generate_boxes()` with different values and saving each to a separate filename.
+"""
 import random
 import pandas as pd
 
