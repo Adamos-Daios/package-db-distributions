@@ -21,7 +21,7 @@ This script generates randomized box specification datasets and exports them as 
    pip install pandas
 
 2. Open this file.
-3. Modify the last line if you want to change the number of records:
+3. Modify line 161 if you want to change the number of records:
    boxes_data = generate_boxes(10000)
 
    Change `10000` to your desired number (e.g., 500, 1000, 50000, etc.)
