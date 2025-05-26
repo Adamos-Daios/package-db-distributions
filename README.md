@@ -89,6 +89,25 @@ Each Excel file contains records with the following structure:
 > ⚠️ Data is randomly generated based on material-specific logic and physical constraints.
 
 ---
+
+🚀 API-Based Picking List Service
+In addition to static datasets, this project offers a FastAPI-powered service that allows users to filter and download randomized box selections based on customizable criteria like size, material, attributes (e.g., waterproof), temperature limits, and more.
+
+📁 Location: box_filter_api/
+
+🔧 Key Files:
+
+import_excel.py – Converts Excel datasets to a SQLite database (packages.db)
+
+main.py – Launches the FastAPI app with endpoints for downloading filtered selections as .csv or .xlsx
+
+📚 Instructions:
+See the full guide in [README_api.md](./box_filter_api/README_api.md)for setup and usage.
+
+🧪 Test the API:
+Once running, access Swagger UI at: http://127.0.0.1:8000/docs
+
+---
 🧪 Research Applications
 These datasets are intended for researchers exploring the Mixed Palletizing Problem or similar logistics/optimization tasks.
 
