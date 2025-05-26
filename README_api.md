@@ -8,7 +8,7 @@ This section explains how to transform the Excel box database into a `.db` file 
 
 #### 1. ✅ Download the Excel File
 
-Choose an Excel file from the `boxes_database` folder, e.g., `boxes_10000.xlsx`, and save it locally.
+Choose an Excel file from the `boxes_database` folder, e.g., `boxes_10.000.xlsx`, and save it locally.
 
 #### 2. 🔄 Convert Excel to Database
 
@@ -31,11 +31,6 @@ mkdir box_filter_api
 cd box_filter_api
 ```
 
-Or if already created:
-
-```bash
-cd C:\Users\adamo\package-picker\box_filter_api
-```
 
 #### 4. 🧪 Create a Virtual Environment
 
