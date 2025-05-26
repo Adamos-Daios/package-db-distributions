@@ -93,7 +93,7 @@ Each Excel file contains records with the following structure:
 ## 🚀 API-Based Picking List Service
 In addition to static datasets, this project offers a FastAPI-powered service that allows users to filter and download randomized box selections based on customizable criteria like size, material, attributes (e.g., waterproof), temperature limits, and more.
 
-📁 Location: box_filter_api/
+📁 Location: [box_filter_api](./box_filter_api/)
 
 🔧 Key Files:
 
