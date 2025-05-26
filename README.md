@@ -98,6 +98,14 @@ By using common datasets, the community can ensure consistency in evaluating dif
 ---
 ## 📜 License
 
+---
+## 📖 Citation
+
+If you use this dataset in your research or software, please cite it as:
+
+> Adamos Daios. *Box Database Generator: Static Datasets for the Mixed Palletizing Problem*. GitHub, 2025. [https://github.com/Adamos-Daios/package-db-distributions](https://github.com/Adamos-Daios/package-db-distributions)
+
+
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 
