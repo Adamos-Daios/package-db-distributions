@@ -63,6 +63,21 @@ boxes_100000.xlsx
 Each file contains a fixed number of randomly generated box records, following the same structure.
 
 ---
+📊 Sample Dataset Preview
+---
+
+## 📊 Sample Dataset Preview
+
+Each Excel file contains records with the following structure:
+
+| Box ID   | Length (cm) | Width (cm) | Height (cm) | Thickness (cm) | External Volume (L) | Internal Volume (L) | Max Load (kg) | Material  | Fragile | Stackable | Waterproof | Fire Retardant | Min Temp (°C) | Max Temp (°C) | Color     | Country       |
+|----------|-------------|------------|-------------|----------------|----------------------|----------------------|----------------|-----------|---------|-----------|------------|----------------|----------------|----------------|-----------|----------------|
+| BX000001 | 75          | 60         | 40          | 0.4            | 180.00               | 167.78               | 350.00         | Cardboard | Yes     | Yes       | No         | No             | -30            | 60             | Brown     | Germany        |
+| BX000002 | 90          | 45         | 50          | 0.2            | 202.50               | 197.28               | 450.00         | Plastic   | No      | Yes       | Yes        | Yes            | -20            | 55             | Gray      | Japan          |
+
+> ⚠️ Data is randomly generated based on material-specific logic and physical constraints.
+
+---
 🧪 Research Applications
 These datasets are intended for researchers exploring the Mixed Palletizing Problem or similar logistics/optimization tasks.
 
