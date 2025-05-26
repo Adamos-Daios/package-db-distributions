@@ -1,5 +1,9 @@
 # Box Database Generator
 
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
+
+
 A lightweight Python utility that creates versioned Excel datasets of box specifications for easy distribution.
 
 ---
