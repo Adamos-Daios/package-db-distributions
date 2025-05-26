@@ -14,7 +14,7 @@ Box Database Generator
 This script generates randomized box specification datasets and exports them as Excel files.
 
 📄 Output:
-- Excel file named `boxes_database_<N>.xlsx` where <N> is the number of generated box records.
+- Excel file named `boxes_database.xlsx`.
 
 🔧 How to Use:
 1. Install pandas if not already installed:
