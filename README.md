@@ -73,7 +73,7 @@ Each file contains a fixed number of randomly generated box records, following t
 
 Download a sample box dataset with 10,000 records:
 
-[📥 Download boxes_10000.xlsx](https://github.com/Adamos-Daios/package-db-distributions/blob/main/boxes_database/boxes_10000.xlsx?raw=true)
+[📥 Download boxes_10000.xlsx](https://github.com/Adamos-Daios/package-db-distributions/blob/main/boxes_database/boxes_database_10.000.xlsx?raw=true)
 
 
 ---
