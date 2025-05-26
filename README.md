@@ -2,8 +2,8 @@
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
-![Repo Size](https://img.shields.io/github/repo-size/Adamos-Daios/package-db-distributions.svg)
-![Last Commit](https://img.shields.io/github/last-commit/Adamos-Daios/package-db-distributions.svg)
+![Repo Size](https://img.shields.io/github/languages/code-size/Adamos-Daios/package-db-distributions)
+![Last Commit](https://img.shields.io/github/last-commit/Adamos-Daios/package-db-distributions)
 ![Issues](https://img.shields.io/github/issues/Adamos-Daios/package-db-distributions.svg)
 
 
