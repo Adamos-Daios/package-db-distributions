@@ -30,12 +30,12 @@ A lightweight Python utility that creates versioned Excel datasets of box specif
    git clone https://github.com/your-username/box-database-generator.git
    cd box-database-generator
    ```
-2. **Install deps**
+2. **Install dependencies**
 
    ```bash
-   pip install pandas
+   pip install -r requirements.txt
    ```
-
+Note: This will install pandas and openpyxl, required for generating Excel files.
 ---
 
 ## ▶️ Usage
