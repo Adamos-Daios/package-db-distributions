@@ -40,7 +40,7 @@ Note: This will install pandas and openpyxl, required for generating Excel files
 
 ## ▶️ Usage
 
-* Open `generate_boxes.py`.
+* Open [box_generator.py](./box_generator.py).
 * Set the desired number of records (default: 10,000).
 * Run:
 
