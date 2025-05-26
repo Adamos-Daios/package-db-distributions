@@ -62,6 +62,7 @@ boxes_100000.xlsx
 
 Each file contains a fixed number of randomly generated box records, following the same structure.
 
+---
 🧪 Research Applications
 These datasets are intended for researchers exploring the Mixed Palletizing Problem or similar logistics/optimization tasks.
 
@@ -75,7 +76,7 @@ Cite this repository when referencing results derived from the included files.
 
 By using common datasets, the community can ensure consistency in evaluating different algorithmic approaches.
 
-
+---
 ## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
