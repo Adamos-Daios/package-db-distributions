@@ -1,68 +1,52 @@
-# package-db-distributions
-Box Database Generator: A Python tool that generates and exports static Excel datasets of box specifications—dimensions, material properties, load capacities, and environmental attributes—for consistent distribution.
+# Box Database Generator
 
-Features
+A lightweight Python utility that creates versioned Excel datasets of box specifications for easy distribution.
 
-Material-Based Generation: Simulates boxes of different materials (Cardboard, Plastic, Wood, Metal, Composite) with weighted probabilities.
+---
 
-Dimensional Variability: Randomizes length, width, height, and thickness based on material-specific options.
+## 📦 Key Features
 
-Physical Properties: Calculates external and internal volumes (in liters) and load capacities (kg).
+* **Material Diversity**: Generates boxes made of Cardboard, Plastic, Wood, Metal, and Composite.
+* **Dimensional Randomization**: Random lengths, widths, heights, and thicknesses within material-specific ranges.
+* **Property Calculation**: Computes external/internal volumes and max load capacity.
+* **Attribute Flags**: Assigns fragile, stackable, waterproof, and fire-retardant flags.
+* **Environmental Ranges**: Random safe temperature limits for each material.
+* **Metadata**: Includes box color and country of origin.
 
-Special Attributes: Assigns properties like fragile, stackable, waterproof, and fire retardant according to material probabilities.
+---
 
-Environmental Ranges: Randomizes safe operating temperature ranges per material.
+## ⚙️ Setup
 
-Customization: Includes color and country of origin fields.
+1. **Clone repo**
 
-Bulk Export: Generates large datasets (e.g., 10,000 boxes) and exports to an Excel file (boxes_database.xlsx).
+   ```bash
+   git clone https://github.com/your-username/box-database-generator.git
+   cd box-database-generator
+   ```
+2. **Install deps**
 
-Prerequisites
+   ```bash
+   pip install pandas
+   ```
 
-Python 3.7+
+---
 
-pandas library
+## ▶️ Usage
 
-(Optional) Google Colab or local Jupyter environment for easy download
+* Open `generate_boxes.py`.
+* Set the desired number of records (default: 10,000).
+* Run:
 
-Installation
+  ```bash
+  python generate_boxes.py
+  ```
+* Result: `boxes_database.xlsx` saved in the working directory.
 
-Clone the repository:
+---
 
-git clone https://github.com/your-username/box-database-generator.git
-cd box-database-generator
+## 📜 License
 
-Install dependencies:
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-pip install pandas
-
-Usage
-
-Open generate_boxes.py (or your script file) in your Python environment.
-
-Adjust parameters if needed (e.g., number of boxes).
-
-Run the script:
-
-python generate_boxes.py
-
-The script will produce boxes_database.xlsx and prompt for download (in Colab) or save locally.
-
-File Structure
-
-box-database-generator/
-├── generate_boxes.py    # Main script
-├── boxes_database.xlsx  # Sample output (v1.0)
-└── README.md            # Project documentation
-
-Versioning and Releases
-
-Initial release: v1.0
-
-Future updates: regenerate boxes_database.xlsx, bump version, tag release
-
-License
-
-This project is released under the MIT License.
 
 
