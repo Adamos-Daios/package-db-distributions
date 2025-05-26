@@ -102,7 +102,7 @@ import_excel.py – Converts Excel datasets to a SQLite database (packages.db)
 main.py – Launches the FastAPI app with endpoints for downloading filtered selections as .csv or .xlsx
 
 📚 Instructions:
-See the full guide in [README_api.md](./box_filter_api/README_api.md)for setup and usage.
+See the full guide in [README_api.md](./box_filter_api/README_api.md) for setup and usage.
 
 🧪 Test the API:
 Once running, access Swagger UI at: http://127.0.0.1:8000/docs
