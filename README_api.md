@@ -8,7 +8,7 @@ This section explains how to transform the Excel box database into a `.db` file 
 
 #### 1. ✅ Download the Excel File
 
-Choose an Excel file from the `boxes_database` folder, e.g., `boxes_10.000.xlsx`, and save it locally.
+Choose an Excel file from the `boxes_database` folder, e.g., `boxes_database_10.000.xlsx`, and save it locally.
 
 #### 2. 🔄 Convert Excel to Database
 
