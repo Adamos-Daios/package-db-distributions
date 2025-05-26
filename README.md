@@ -63,9 +63,6 @@ boxes_100000.xlsx
 Each file contains a fixed number of randomly generated box records, following the same structure.
 
 ---
-📊 Sample Dataset Preview
----
-
 ## 📊 Sample Dataset Preview
 
 Each Excel file contains records with the following structure:
