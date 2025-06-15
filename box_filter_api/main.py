@@ -4,6 +4,7 @@ from typing import Optional, Literal
 import sqlite3
 import pandas as pd
 from io import BytesIO, StringIO
+import random
 
 app = FastAPI()
 
@@ -62,10 +63,9 @@ def run_query(
     if color: query += " AND Color = ?"; params.append(color)
     if country: query += " AND `Country of Origin` = ?"; params.append(country)
 
-    # Random and limit
+    # Randomization
     query += " ORDER BY RANDOM()"
-    if limit: query += " LIMIT ?"; params.append(limit)
-
+    # No LIMIT here – handled in Python when needed
     cursor.execute(query, params)
     columns = [desc[0] for desc in cursor.description]
     results = [dict(zip(columns, row)) for row in cursor.fetchall()]
@@ -95,12 +95,10 @@ def download_csv(
     fire_retardant: Optional[YesNoEnum] = Query(None),
     color: Optional[ColorEnum] = Query(None),
     country: Optional[CountryEnum] = Query(None),
-    limit: Optional[int] = Query(100)
+    limit: Optional[int] = Query(100),
+    sample_with_replacement: Optional[bool] = Query(False, description="Allow duplicate boxes (sample with replacement)")
 ):
-    """
-    Endpoint to download filtered results as CSV.
-    """
-    results = run_query(
+    raw_results = run_query(
         min_length, max_length,
         min_width, max_width,
         min_height, max_height,
@@ -111,8 +109,13 @@ def download_csv(
         material, fragile,
         stackable, waterproof, fire_retardant,
         color, country,
-        limit
+        None  # no LIMIT in SQL
     )
+
+    if sample_with_replacement and limit and raw_results:
+        results = random.choices(raw_results, k=limit)
+    else:
+        results = raw_results[:limit] if limit else raw_results
 
     df = pd.DataFrame(results)
     csv = df.to_csv(index=False)
@@ -141,12 +144,10 @@ def download_excel(
     fire_retardant: Optional[YesNoEnum] = Query(None),
     color: Optional[ColorEnum] = Query(None),
     country: Optional[CountryEnum] = Query(None),
-    limit: Optional[int] = Query(100)
+    limit: Optional[int] = Query(100),
+    sample_with_replacement: Optional[bool] = Query(False, description="Allow duplicate boxes (sample with replacement)")
 ):
-    """
-    Endpoint to download filtered results as Excel.
-    """
-    results = run_query(
+    raw_results = run_query(
         min_length, max_length,
         min_width, max_width,
         min_height, max_height,
@@ -157,8 +158,13 @@ def download_excel(
         material, fragile,
         stackable, waterproof, fire_retardant,
         color, country,
-        limit
+        None  # no LIMIT in SQL
     )
+
+    if sample_with_replacement and limit and raw_results:
+        results = random.choices(raw_results, k=limit)
+    else:
+        results = raw_results[:limit] if limit else raw_results
 
     df = pd.DataFrame(results)
     output = BytesIO()
