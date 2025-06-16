@@ -7,7 +7,7 @@
 ![Issues](https://img.shields.io/github/issues/Adamos-Daios/package-db-distributions.svg)
 
 
-A lightweight Python utility that creates versioned Excel datasets of box specifications for easy distribution.
+A Scalable Synthetic Benchmark and Multi Algorithm Evaluation Framework for Mixed Palletizing.
 
 ---
 
