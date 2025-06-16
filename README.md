@@ -1,4 +1,4 @@
-# Box Database Generator
+# MixedPalletBoxes
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
