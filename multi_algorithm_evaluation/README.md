@@ -6,12 +6,12 @@ This folder contains Python scripts implementing and evaluating mixed-palletizin
 
 The following palletizing algorithms were custom-implemented and tested on four randomized picking lists derived from the [boxes_database_500.xlsx](https://github.com/Adamos-Daios/package-db-distributions/blob/main/boxes_database/boxes_database_500.xlsx)
 
-- First Fit Decreasing (FFD)
-- Extreme Point (EP)
-- Guillotine Cut
-- Layered (Shelf)
-- Genetic Algorithm
-- Tabu Search (TS)
+- [First Fit Decreasing (FFD)](./Test_1_FFD.py)
+- [Extreme Point (EP)](./Test_2_EP.py)
+- [Guillotine Cut](./Test_3_Guilotine_Cut.py)
+- [Layered (Shelf)](./Test_4_Layered_Shelf.py)
+- [Genetic Algorithm](./Test_5_GA.py)
+- [Tabu Search (TS)](./Test_6_TS.py)
 
 ## Test Scenarios
 
