@@ -17,9 +17,9 @@ The following palletizing algorithms were custom-implemented and tested on four 
 
 Using the `box_filter` API, four randomized picking lists of varying sizes were generated:
 
-- **Light orders (20 items):** Small, quick-fulfillment shipments  
-- **Typical orders (35 items):** Standard daily warehouse orders  
-- **Heavy orders (50 items):** Larger restocking or retail shipments  
-- **Overflow orders (100 items):** Peak demand or bulk consolidation loads  
+- **Light orders (20 items):** Small, quick-fulfillment shipments                       [boxes_20.xlsx](./boxes_20.xlsx)
+- **Typical orders (35 items):** Standard daily warehouse orders                        [boxes_35.xlsx](./boxes_35.xlsx)
+- **Heavy orders (50 items):** Larger restocking or retail shipments                    [boxes_50.xlsx](./boxes_50.xlsx)
+- **Overflow orders (100 items):** Peak demand or bulk consolidation loads              [boxes_100.xlsx](./boxes_100.xlsx) 
 
 
