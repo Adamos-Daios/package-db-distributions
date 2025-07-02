@@ -4,7 +4,7 @@ This folder contains Python scripts implementing and evaluating mixed-palletizin
 
 ## Algorithms Implemented
 
-The following palletizing algorithms were custom-implemented and tested on four randomized picking lists derived from the [`boxes_database_500.xlsx`](./boxes_database/boxes_database_500.xlsx)
+The following palletizing algorithms were custom-implemented and tested on four randomized picking lists derived from the [Dataset: boxes_database_500.xlsx](./boxes_database/boxes_database_500.xlsx).
 
 - First Fit Decreasing (FFD)
 - Extreme Point (EP)
