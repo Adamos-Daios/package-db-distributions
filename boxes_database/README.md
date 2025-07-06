@@ -11,5 +11,7 @@ By using these **fixed, shared datasets**, fellow researchers can:
 - Ensure consistency and reproducibility in experimental results.
 - Showcase innovative approaches on a standardized testing ground.
 
+Python script [Stats_DBs](./Stats_DBs.py) reports the summary statistics across the seven MixedPalletBoxes datasets.
+
 Researchers are encouraged to reference these files in their work and report results for comparison.
 
