@@ -7,7 +7,7 @@
 ![Issues](https://img.shields.io/github/issues/Adamos-Daios/package-db-distributions.svg)
 
 
-A Scalable Synthetic Benchmark and Multi Algorithm Evaluation Framework for Mixed Palletizing.
+A Synthetic Benchmark Dataset for Warehouse Applications.
 
 ---
 
